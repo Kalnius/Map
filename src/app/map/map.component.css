@@ -1,0 +1,38 @@
+.mapObject {
+  width: 50vw;
+  height: 50vw;
+}
+
+.overMap {
+  font-size: 1vw;
+}
+
+.svg-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.mapas {
+  width: 60vw;
+  height: 50vw;
+}
+
+.leftWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-screen {
+  width: 100%;
+  height: 100%;
+}
+
+svg path {
+  cursor: pointer;
+}
+
+svg path:hover {
+  fill: orange;
+}

@@ -1,0 +1,8 @@
+<div class="flexContainer">
+  <div class="leftSide">
+    <app-map (countryClicked)="onCountryClicked($event)"></app-map>
+  </div>
+  <div class="rightSide">
+    <app-info [country]="selectedCountry$ | async"></app-info>
+  </div>
+</div>
