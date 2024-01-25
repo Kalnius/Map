@@ -13,7 +13,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/Map/",
             "outputPath": "dist/map",
             "index": "src/index.html",
             "main": "src/main.ts",
